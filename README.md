@@ -1,6 +1,6 @@
 # guidelines
 
-公司统一的开发约定，供团队成员和 LLM coding agent（Claude Code、opencode、Cursor、Codex 等）共同遵循。
+供团队成员和 LLM coding agent（Claude Code、opencode、Cursor、Codex 等）共同遵循。
 
 约定内容见 [GUIDELINES.md](GUIDELINES.md)（入口索引），具体规范分布在 `agent.md`、`git.md`、`app.md`、`server.md`、`logging.md`、`writing.md`，文档模板在 `templates/`。
 

@@ -10,7 +10,7 @@
 
 ## 变量
 
-- guidelines 仓库地址：`git@git.example.com:dev/guidelines.git`（Gitea，私有部署）
+- guidelines 仓库地址：`git@git.example.com:dev/guidelines.git`
 - 引入路径：`.guidelines`
 - **`<guidelines_dir>`**：guidelines 仓库在本机的位置，**即你当前读取本 INSTALL.md 所在的仓库目录**。后续所有步骤中以它代指，不写死具体路径。
 - **唯一真源入口**：`.guidelines/GUIDELINES.md`（约定索引，内含指向各约定的阅读清单）。**任何入口文件都只指向它，不逐个罗列约定文件**——清单内容统一由它维护。
@@ -102,7 +102,7 @@ rsync -a \
 ```markdown
 # 项目约定
 
-本项目遵循公司统一开发约定，**唯一入口是 `.guidelines/GUIDELINES.md`**。开始任何开发工作前，必须先完整阅读该入口，并按其中的约定分类读取各规范文件、严格遵守。
+本项目遵循统一开发约定，**唯一入口是 `.guidelines/GUIDELINES.md`**。开始任何开发工作前，必须先完整阅读该入口，并按其中的约定分类读取各规范文件、严格遵守。
 
 @.guidelines/GUIDELINES.md
 
@@ -208,7 +208,6 @@ rm -rf <guidelines_dir>
    ```bash
    ssh root@10.0.0.1 'echo ok'   # edge
    ssh root@10.0.0.3 'echo ok'   # app
-   ssh root@203.0.113.18 'echo ok' # media
    ```
 
 最后一行结论即可：都正常就说一句正常；不正常的逐条说明是 tailscale 未登录、key/授权缺失，还是需员工确认访问方式。

@@ -6,3 +6,8 @@ __MACOSX/
 .AppleDouble
 .LSOverride
 Icon[]
+
+### Vim ###
+*.swp
+*.swo
+[._]*.sw[a-p]
